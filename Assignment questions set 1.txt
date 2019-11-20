@@ -1,0 +1,57 @@
+1.Create a vehicle_inventory database which houses a table called Inventory_details. The table consists of a serial_number column which can hold only integer values. This column uniquely defines an entry in the table. Vehicle_name column(Size =50) gives the name of the vechicle; there is a purchase_date column and also an Onroad_price column. Enter any 5 vehicle's data of your choice into this
+
+2. After having a meeting with your store manager, you are requested to make following changes to the table
+	a. Change the name of the table to Vehicle_inventory
+	b. Increase the size of the column Vehicle_name from size = 50 to size = 100
+
+3. Display all the information from vehicle_inventory table
+
+Use classic models database that you have to answer the questions that follow
+
+1. Find all employees whose job titles are 'Sales Rep'
+
+2. find employees whose job titles are Sales Rep and office codes are 1
+
+3. find employees whose job title is Sales Rep or employees who locate the office with office code 1
+
+4. find employees whose last names end with the string 'son'
+
+5. find employees who locate in offices whose office code is from 1 to 3
+
+6. Find employee who do not report to anyone else in the office
+
+7. Find employees whose office code is greater than 5
+
+8. find customers who do not have a sales representative
+
+9. You have a repository to store contact number of your colleagues and you have been provided the following set of queries to create the data. Run it as it is. Note: Boys and Girls, Contact numbers are imaginary. Do not get into the excitement mode of checking on these numbers!!
+	CREATE TABLE IF NOT EXISTS contacts (
+    contactid INT AUTO_INCREMENT PRIMARY KEY,
+    contactname VARCHAR(20) NOT NULL,
+    Mobilephone VARCHAR(15),
+    homephone VARCHAR(15)
+
+INSERT INTO contacts(contactname,Mobilephone,homephone)
+VALUES('Rohan Kumar','9456781245',NULL),
+      ('Afzal khan',NULL,'0802345671'),
+      ('Priyali','9678903452','0821345678'),
+      ('Riyal Jain',NULL,'0804567812')
+      ('Deepika Sharma', 9870123879,NULL)
+Answer the question that follow for the above data:
+
+	a. Notice that some of them does not have a Mobile number. So it would be good if you can get their homephone number. That is if mobilephone is null, then it should displayhomephone, So write a query to get names and phones of all contacts
+
+10. Select 1/0 gives a division by zero error. use nullif function to prevent this divison by zero error. Write a query to demonstrate this.
+
+11. use the customers table and find out the number of customers in each country.
+
+12. use the customers table and find out the country wise credit limit.
+
+13. use orderdetails table. Write a query to display orders whose total sales price is greater than 5000 and contains items more than 500.
+
+14. write a query to find employees whose last names don’t start with the character B.
+
+15. All work and no play makes golu a dull boy!!. So here is the SQL fun question for you that I prepared myself. try to answer it: "If you are good in SQL, you can get a job in Carpentry work too!!" ..... Thinkkkkkk........
+
+
+
