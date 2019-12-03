@@ -1,0 +1,22 @@
+ 1. Write a query to get ProductCode, productname and textdescripion of productlines. use products and productlines table
+ 
+ 2. Write a query to return order  number, status and total sales for each order. use orders and orderdetails tables.
+ 
+ 3. Write a query to return the records of those product codes whose sales price is less than MSRP. Use products and orderdetails table
+ The columns to be displayed are Ordernumber, productname, msrp, priceeach.
+
+4. Write a query to find customers who does not have any orders. Use Customers and orders table. The output display should contain
+Customer number and customer name from customers table, oder number and status from orders table
+
+5. write a query to find employees who are not in charge of any customers using right join.
+
+Now that you are comforatble joining two table try to extrapolate the concpet to join three tables for the question below:
+
+6. Write a query to join the three tables Orders, orderdetails, Products. Use inner join  The output should contasin the following columns
+    orderNumber,
+    orderDate,
+    orderLineNumber,
+    productName,
+    quantityOrdered,
+    priceEach
+
