@@ -1,0 +1,9 @@
+PRODUCT_CD,DATE_OFFERED,DATE_RETIRED,NAME,PRODUCT_TYPE_CD
+AUT,2000-01-01 00:00:00,,auto loan,LOAN
+BUS,2000-01-01 00:00:00,,business line of credit,LOAN
+CD,2000-01-01 00:00:00,,certificate of deposit,ACCOUNT
+CHK,2000-01-01 00:00:00,,checking account,ACCOUNT
+MM,2000-01-01 00:00:00,,money market account,ACCOUNT
+MRT,2000-01-01 00:00:00,,home mortgage,LOAN
+SAV,2000-01-01 00:00:00,,savings account,ACCOUNT
+SBL,2000-01-01 00:00:00,,small business loan,LOAN

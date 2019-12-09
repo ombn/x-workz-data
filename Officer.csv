@@ -1,0 +1,5 @@
+OFFICER_ID,END_DATE,FIRST_NAME,LAST_NAME,START_DATE,TITLE,CUST_ID
+1,,John,Chilton,1995-05-01 00:00:00,President,10
+2,,Paul,Hardy,2001-01-01 00:00:00,President,11
+3,,Carl,Lutz,2002-06-30 00:00:00,President,12
+4,,Stanley,Cheswick,1999-05-01 00:00:00,President,13
